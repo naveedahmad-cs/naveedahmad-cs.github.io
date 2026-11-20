@@ -90,7 +90,15 @@ h3 { font-size: 19px; margin: 0 0 6px; }
   background: var(--panel); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 22px;
 }
-.tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+.skill-list { padding: 0; margin: 0; list-style: none; }
+.skill-list li {
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline;
+  border: 1px solid var(--border); border-radius: 999px;
+  padding: 6px 14px; font-size: 14px; background: var(--panel-2);
+  margin-bottom: 8px;
+}
+.skill-list li span { color: var(--muted); font-size: 13px; }
+.more-skills { margin-top: 18px; }
 .tags li {
   border: 1px solid var(--border); border-radius: 999px;
   padding: 5px 12px; font-size: 14px; background: var(--panel-2);
