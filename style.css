@@ -99,6 +99,8 @@ h3 { font-size: 19px; margin: 0 0 6px; }
 }
 .skill-list li span { color: var(--muted); font-size: 13px; }
 .more-skills { margin-top: 18px; }
+.skill-sub { color: var(--accent); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin: 14px 0 8px; }
+.skill-sub:first-of-type { margin-top: 0; }
 .tags li {
   border: 1px solid var(--border); border-radius: 999px;
   padding: 5px 12px; font-size: 14px; background: var(--panel-2);
